@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sulla privacy — Farmaci Reminder</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.65; color: #1f2937; }
+  h1 { font-size: 1.8rem; border-bottom: 2px solid #2563eb; padding-bottom: 10px; }
+  h2 { font-size: 1.2rem; margin-top: 32px; color: #1e3a8a; }
+  .meta { color: #6b7280; font-size: 0.9rem; }
+  .box { background: #eff6ff; border-left: 4px solid #2563eb; padding: 12px 16px; margin: 20px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #d1d5db; padding: 8px 10px; text-align: left; font-size: 0.95rem; }
+  th { background: #f3f4f6; }
+  code { background: #f3f4f6; padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Informativa sulla privacy</h1>
+<p class="meta">Applicazioni <strong>Farmaci Reminder</strong> (smartwatch) e <strong>Farmaci Manager</strong> (smartphone)<br>
+Ultimo aggiornamento: 28 settembre 2026</p>
+
+<div class="box">
+  <strong>In sintesi:</strong> i tuoi dati restano sul tuo dispositivo. Non gestiamo alcun server e non
+  raccogliamo, non vendiamo e non condividiamo le tue informazioni. L'unica trasmissione verso l'esterno
+  avviene se attivi volontariamente la funzione opzionale di analisi tramite intelligenza artificiale,
+  descritta al punto 4.
+</div>
+
+<h2>1. Titolare del trattamento</h2>
+<p>Queste applicazioni sono sviluppate e distribuite da uno sviluppatore indipendente.
+Per qualsiasi richiesta relativa ai tuoi dati puoi scrivere a:
+<a href="mailto:mrmiky@gmail.com"><strong>mrmiky@gmail.com</strong></a>.</p>
+
+<h2>2. Dati trattati e finalità</h2>
+<table>
+  <tr><th>Dato</th><th>Finalità</th><th>Dove risiede</th></tr>
+  <tr><td>Nomi dei farmaci, dosaggi, orari di assunzione</td><td>Generare i promemoria</td><td>Solo sul dispositivo</td></tr>
+  <tr><td>Storico delle assunzioni (assunto / posticipato / saltato)</td><td>Consultazione dello storico</td><td>Solo sul dispositivo</td></tr>
+  <tr><td>Quantità e scorte residue</td><td>Avvisi di scorte in esaurimento</td><td>Solo sul dispositivo</td></tr>
+  <tr><td>Profili utente (nome, preferenze di notifica)</td><td>Distinguere più utenti</td><td>Solo sul dispositivo</td></tr>
+  <tr><td>Fotografie delle confezioni</td><td>Riconoscimento scorte (funzione opzionale)</td><td>Vedi punto 4</td></tr>
+</table>
+
+<p>I dati relativi ai farmaci costituiscono dati relativi alla salute, appartenenti alle categorie
+particolari di cui all'art. 9 del Regolamento UE 2016/679 (GDPR). Per questo motivo sono conservati
+localmente e non vengono trasmessi ad alcun servizio gestito dallo sviluppatore.</p>
+
+<h2>3. Conservazione dei dati</h2>
+<p>Tutti i dati sono salvati esclusivamente nella memoria locale del tuo dispositivo, in un database
+accessibile soltanto all'applicazione. Non esiste alcun account, alcuna registrazione e alcuna
+sincronizzazione su cloud. Disinstallando l'applicazione i dati vengono eliminati definitivamente.</p>
+
+<h2>4. Funzione opzionale di analisi tramite intelligenza artificiale</h2>
+<p>L'app per smartphone include una funzione <em>disattivata per impostazione predefinita</em> che permette
+di riconoscere le scorte fotografando le confezioni dei farmaci. Se scegli di attivarla:</p>
+<ul>
+  <li>devi selezionare un provider (<code>Google Gemini</code> oppure <code>OpenRouter</code>) e inserire
+      una <strong>tua</strong> chiave API personale;</li>
+  <li>le fotografie scattate e i nomi dei farmaci della tua terapia vengono inviati al provider da te
+      scelto, per essere elaborati e restituire il risultato del riconoscimento;</li>
+  <li>la trasmissione avviene tramite la tua chiave API, quindi verso il tuo account presso quel
+      fornitore: il trattamento è regolato dalle condizioni e dall'informativa privacy del provider;</li>
+  <li>lo sviluppatore non riceve, non intercetta e non conserva copia di tali dati.</li>
+</ul>
+<p>Mantenendo l'impostazione <code>manuale</code>, nessun dato lascia mai il dispositivo.
+Ti invitiamo a consultare le informative dei fornitori prima di attivare la funzione:
+le policy di <a href="https://policies.google.com/privacy">Google</a> e di
+<a href="https://openrouter.ai/privacy">OpenRouter</a>.</p>
+
+<h2>5. Comunicazione con lo smartwatch</h2>
+<p>Quando abbini l'orologio, l'app per smartphone gli trasmette il nome e il dosaggio del farmaco da
+assumere, affinché possano essere mostrati sul quadrante. La comunicazione avviene localmente via
+Bluetooth attraverso Huawei Wear Engine e non transita su Internet. L'app per orologio non conserva
+alcun dato in modo permanente: le informazioni restano in memoria solo per il tempo necessario a
+visualizzare il promemoria.</p>
+
+<h2>6. Permessi richiesti</h2>
+<table>
+  <tr><th>Permesso</th><th>Motivo</th></tr>
+  <tr><td>Notifiche</td><td>Mostrare i promemoria di assunzione</td></tr>
+  <tr><td>Sveglie esatte</td><td>Far scattare i promemoria all'orario preciso</td></tr>
+  <tr><td>Avvio al riavvio del dispositivo</td><td>Ripristinare i promemoria dopo un riavvio</td></tr>
+  <tr><td>Vibrazione</td><td>Segnalare il promemoria</td></tr>
+  <tr><td>Fotocamera</td><td>Solo per la funzione opzionale del punto 4</td></tr>
+  <tr><td>Internet</td><td>Solo per la funzione opzionale del punto 4</td></tr>
+</table>
+
+<h2>7. Minori</h2>
+<p>Le applicazioni non sono rivolte a minori di 16 anni e non raccolgono consapevolmente dati
+riguardanti minori.</p>
+
+<h2>8. I tuoi diritti</h2>
+<p>Poiché nessun dato viene raccolto dallo sviluppatore, hai in ogni momento il controllo completo
+sulle tue informazioni: puoi consultarle, modificarle ed eliminarle direttamente dall'applicazione,
+oppure cancellarle integralmente disinstallandola. Restano fermi i diritti previsti dagli artt. 15-22
+del GDPR, esercitabili scrivendo all'indirizzo indicato al punto 1.</p>
+
+<h2>9. Modifiche a questa informativa</h2>
+<p>Eventuali aggiornamenti saranno pubblicati su questa pagina con l'indicazione della nuova data di
+ultimo aggiornamento.</p>
+
+</body>
+</html>
